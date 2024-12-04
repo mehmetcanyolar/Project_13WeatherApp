@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft PhagsPa", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(88, 69);
+            this.label1.Location = new System.Drawing.Point(82, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(590, 31);
             this.label1.TabIndex = 0;
@@ -46,14 +46,14 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(145, 130);
+            this.textBox1.Location = new System.Drawing.Point(105, 130);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(528, 28);
             this.textBox1.TabIndex = 1;
             // 
             // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(331, 191);
+            this.btnGo.Location = new System.Drawing.Point(325, 191);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(126, 35);
             this.btnGo.TabIndex = 2;

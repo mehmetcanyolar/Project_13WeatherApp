@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblCelcius = new System.Windows.Forms.Label();
@@ -41,6 +40,7 @@
             this.lblWind = new System.Windows.Forms.Label();
             this.lblHumidity = new System.Windows.Forms.Label();
             this.lblFahrenheit = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,25 +55,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "İSTANBUL,TR";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Project_13WeatherApp.Properties.Resources.sunny;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 197);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 105);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(43, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 36);
+            this.label2.Size = new System.Drawing.Size(173, 38);
             this.label2.TabIndex = 2;
             this.label2.Text = "İSTANBUL";
             // 
@@ -186,6 +176,17 @@
             this.lblFahrenheit.Size = new System.Drawing.Size(29, 20);
             this.lblFahrenheit.TabIndex = 12;
             this.lblFahrenheit.Text = "00";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Project_13WeatherApp.Properties.Resources.sunny;
+            this.pictureBox1.Location = new System.Drawing.Point(70, 197);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(123, 105);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
