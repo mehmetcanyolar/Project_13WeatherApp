@@ -23,7 +23,7 @@ namespace Project_13WeatherApp
             this.frmAsk = frmA;
         }
 
-        public async void Form1_Load(object sender, EventArgs e)
+       private async void Form1_Load(object sender, EventArgs e)
         {
            
             label2.Text = frmAsk.textBox1.Text;
